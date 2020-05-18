@@ -1,0 +1,45 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đăng kí</title>
+    <link rel="stylesheet" type="text/css" href="css/dangki.css">
+</head>
+<body>
+    <div class="main-content">
+        <div>
+            <form class="form-register">
+                <label for="fullname" class="text element">Họ và Tên</label>
+                <input id="fullname" class="element" type="text">
+                <label class="text element" for="email">Email</label>
+                <input id="email" type="text" class="element">
+                <label for="phone" class="text element">Số điện thoại</label>
+                <input id="phone" class="element" type="text">
+                <label for="date-of-birth" class="text element">Ngày sinh</label>
+                <input id="date-of-birth" class="element" type="datetime">
+                <label for="address" class="text element">Địa chỉ</label>
+                <input id="address" class="element" type="datetime">
+                <div class="gender-container">
+                    <p class="text">Giới tính:</p>
+                    <div class="gender-container-choise">
+                        <input id="gender-nam" type="radio" name="gender">
+                        <label for="gender-nam">Nam</label><br>
+                        <input type="radio" name="gender">
+                        <label for="gender-nam">Nữ</label><br>
+                        <input type="radio" name="gender">
+                        <label for="gender-nam">Khác</label><br>
+                    </div>
+                </div>
+
+                <div>
+                    <input id="check" type="checkbox">
+                    <label for="check">Chấp nhận điều khoản và dịch vụ của chúng tôi</label>    
+                </div>
+                <div class="element main-content">
+                    <button id="button-register" class="text" type="submit">Đăng kí</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
