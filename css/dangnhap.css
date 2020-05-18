@@ -1,0 +1,49 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+.text {
+    font-size: 20;
+    color: black;
+}
+#login {
+    font-size: 20;
+    font-weight: bold;
+    background: #0084bd;
+    color: white;
+    padding: 4px;
+    border: 0;
+}
+.login-from {
+    margin: 16px;
+    width: 450px;
+}
+.forgot-password {
+    text-align: center;
+}
+.forgot-password-text {
+    font-size: 18;
+}
+.element {
+    height: 40px;
+    width: 100%;
+    margin-bottom: 16px;
+}
+.create-account {
+    font-size: 20;
+    color: white;
+    font-weight: bold;
+    background-color: gray;
+    border: 0;
+}
+.main-content {
+    margin-top: 16px;
+    width: 100%;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+}
+.main-block {
+    background-color: white;
+    box-shadow: 1px 1px 1px 1px;
+}
