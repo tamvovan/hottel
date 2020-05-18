@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+</head>
+<style>
+	*{
+		box-sizing: border-box;
+	}
+	.button {
+	  transition-duration: 0.4s;
+	  margin-left:10px;
+	  margin-top: 5px;
+	  border-radius: 4px;
+	  border: 1px solid #FFBF00;
+	  padding-bottom:5px;
+	  background: transparent;
+	  color:white;
+	  padding-left:20px;
+	  padding-right:20px;
+	}
+
+	.button:hover {
+	  background-color: #FFBF00;
+	  color: white;
+	}
+	
+	body {
+		background: #f3f3f3 url('image/1.jpeg') no-repeat ;
+		background-size:cover;	
+	}
+	.cursive-font{
+		font-family:generic family,fantasy;
+		font-size:40px;
+		color:#FFBF00;
+		margin:auto;
+		margin-top: 5px;
+
+	}
+	.card-body{
+		text-align:center;
+		font-size:20px;
+
+	}
+	.card-title{
+		color:#FFBF00;
+	}
+	.card:hover{
+            box-shadow: 4px 8px 10px 2px rgba(0, 0, 0, 0.2);
+	}
+	.card-img-top{
+		padding-bottom:25px;
+		margin-top:-20px;
+
+</style>
+<body>
+	<script>
+		document.body.style.backgroundAttachment = "fixed";
+	</script>
+	<nav class="navbar navbar-expand-sm  navbar-static-top hr">
+	  <!-- Brand -->
+    <img src="image/Logotravel.png" alt="Logo" style="width:150px;">
+
+	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+		<span class="navbar-toggler-icon"></span>
+	  </button>
+
+	  <div class="collapse navbar-collapse" id="collapsibleNavbar">
+		<ul class="navbar-nav  ml-auto" style="color:white">
+		  <li class="nav-item dropdown" >
+			  <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown" style="color:white"> Bảng giá </a>
+			  <div class="dropdown-menu">
+				<a class="dropdown-item" href="#" >Giá phòng</a>
+				<a class="dropdown-item" href="#">Giá dịch vụ</a>
+			  </div>
+			</li>
+		  <li class="nav-item">
+			<a class="nav-link" href="#"style="color:white" >Giới thiệu</a>
+		  </li>
+		  <li class="nav-item">
+			<a class="nav-link" href="#" style="color:white" >Liên hệ</a>
+		  </li>
+		  <li class="nav-item dropdown">
+			  <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown" style="color:white"> Tài khoản </a>
+			  <div class="dropdown-menu">
+				<a class="dropdown-item" href="#">Đăng nhập</a>
+				<a class="dropdown-item" href="#">Đăng kí</a>
+			  </div>
+			</li>
+		<li class="nav-item">
+			<button class="button">Đặt phòng </button>
+		</li>
+		</ul>
+	  </div>
+	</nav>
+</body>
+</html>
