@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Gioi thieu </title>
+	<link rel="stylesheet" type="text/css" href="css/gioithieu.css">
+</head>
+<body>
+	<style>
+	body{
+		width: 100%;
+		min-height: 800px;
+	}
+
+	body #header {
+		background: #f3f3f3 url('image/hottel1.jpg') no-repeat ;
+		background-size:cover;	
+		height: 400px;
+	}
+	body #header ul li  {
+		padding-right: 20px;
+		padding-top: 15px;
+		float: right;
+		list-style: none;
+	}
+	body #header ul li a{
+		margin-right: 20px;
+		color: #fff;
+		text-decoration: none;
+	}
+	#header img {
+		float: left;
+	}
+	.button {
+	  transition-duration: 0.4s;
+	  border-radius: 4px;
+	  border: 1px solid #FFBF00;
+	  background: transparent;
+	  color:white;
+	  margin-right: 5px;
+	}
+	.button:hover {
+	  background-color: #FFBF00;
+	  color: white;
+	}
+	#header ul{
+	margin: 0px;
+	padding: 0px;
+}
+	#header ul{
+	margin: 0px;
+	padding: 0px;
+}
+/*#header >ul> li{
+	list-style: none;
+	float: left;
+	position: relative;
+}*/
+/*an menu*/
+#header >ul> li> ul{
+	display: none;
+	position: absolute;
+	background: #696363;
+	top: 40px;
+	left: 0px;
+	width: 258px;
+
+}
+#header  .con{
+	padding: 0px ;
+}
+#header > ul> li:hover ul{
+	display: block;
+}
+</style>
+<body   onload="slide()">
+	<div id="header">
+		
+		<ul>
+			<li class="nav-item">
+			<button class="button">Đặt phòng </button>
+		    </li>
+			<li><a href="">Tài khoản </a>
+				<ul>
+					<li><a href="">Đăng nhập</a></li>
+					<li><a href="">Đăng kí</a></li>
+				</ul>
+			</li>
+			<li><a href="">Bảng giá </a>
+				<ul>
+					<li> <a href="">Giá phòng</a></li>
+					<li><a href="">Giá dịch vụ</a></li>
+				</ul>
+			</li>
+			<li><a href="">Tiện ích</a></li>
+			<li><a href="">Liên hệ</a> </li>
+			<li><a href="">Giới thiệu</a></li>
+			<li><a href="">Ngôn ngữ</a>
+				<ul>
+					<li class="con"><a href="">Tiếng việt </a></li>
+					<li class="con"><a href="">English</a></li>
+				</ul>
+			 </li>
+			
+		</ul>
+		<a href=""><img src="image/logo.png" alt="Logo" style="width:150px;"></a>
+		
+	</div>
+	<div id="left">
+		<h2 id="gt">Khách sạn KNK là một khách sạn đạt chuẩn 5 sao nằm gần phố đi bộ Nguyễn Huệ với không gian náo nhiệt và gần trung tâm thành phố HCM.Từ khách sạn quý khách chỉ mất 15 phút để đến sân bay Tân Sơn Nhất và 5 phút để vào trung tâm thành phố.</h2>
+		<img id="slide" name="slide">
+		<script type="text/javascript">
+        var i = 0;
+        var time =2000;
+        var image=[];
+        image[0]='image/anh11.jpeg';
+        image[1]='image/anh2.jpeg';
+        image[2]='image/anh3.jpeg';
+        image[3]='image/anh4.jpeg';
+        image[4]='image/anh5.jpeg';
+        image[5]='image/anh6.jpeg';
+        function slide() {
+        document.slide.src=image[i];
+            if(i<image.length-1){
+
+                i++;
+            }
+            else{
+
+                i=0;
+            }
+            setTimeout("slide()",time);
+        }
+    </script>
+	
+	<div id="footer"> 
+		<h3> NKN HOTTEL 5 STAR</h3></div>
+	
+
+	
+    
+
+</body>
+
+</body>
+</html>
